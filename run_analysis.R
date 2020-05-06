@@ -1,3 +1,6 @@
+# This code, features.txt, "train" folder, and "test" folder all reside in the 
+# working directory
+
 # Code chunk to read feature names
 con1 <- file("features.txt", "r")
 featurnames <- readLines(con1)
